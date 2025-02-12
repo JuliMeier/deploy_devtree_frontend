@@ -23,7 +23,7 @@ export default function Router() {
             </Route>
 
             <Route path='/:handle' element={<AuthLayout/>}>
-                <Route element={<HandleView />} index={true} ></Route>
+                <Route element={<HandleView />} index={true} />
             </Route>
 
             <Route path='/' element={<HomeView />} />
